@@ -8,7 +8,10 @@
     "test": "./scripts/test"
   },
   "bin": {
-    "jlinx": "./jlinx-cli.js"
+    "jlinx": "./jlinx-cli.js",
+    "jlinx-dids": "./jlinx-cli-dids.js",
+    "jlinx-keys": "./jlinx-cli-keys.js",
+    "jlinx-servers": "./jlinx-cli-servers.js"
   },
   "repository": {
     "type": "git",
