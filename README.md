@@ -72,3 +72,11 @@ $ jlinx resolve 'did:hyp:38tk783tfU3ESyYUM4BixeqsGykX3dGsLDW-elEB_28'
   "updatedAt": "2022-04-22T22:23:45.151Z"
 }
 ```
+
+
+## TODO
+
+checkout:
+
+- https://oclif.io
+- https://github.com/enquirer/enquirer
