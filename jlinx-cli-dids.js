@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import program from './program.js'
-import { didToKey } from 'jlinx-core/util.js'
+import { didToKey } from 'jlinx-util'
 
 program
   .command('resolve')
@@ -36,7 +36,7 @@ program
 
 program.parseAsync(process.argv)
 
-async function resolve(did, opts){
+async function resolve(did){
   const { jlinx } = program
   const didDocument = await jlinx.resolveDid(did)
   if (didDocument){
@@ -44,8 +44,6 @@ async function resolve(did, opts){
   }else{
     program.error(`unable to resolve`)
   }
-  // await didDocument.update()
-  // console.log(didDocument.value)
 }
 
 async function list(opts){

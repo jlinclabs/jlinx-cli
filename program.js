@@ -3,7 +3,7 @@ import Path from 'path'
 import os from 'os'
 import chalk from 'chalk'
 import { program } from 'commander'
-import JlinxApp from 'jlinx-app'
+import JlinxClient from 'jlinx-client'
 
 const defaultStoragePath = Path.join(os.homedir(), '.jlinx')
 
@@ -18,7 +18,7 @@ program.hook('preAction', async () => {
   const { verbose, storage, remote } = program.opts()
   program.verbose = verbose
   program.debug('OPTIONS', { storage, remote })
-  program.jlinx = new JlinxApp({
+  program.jlinx = new JlinxClient({
     storagePath: storage,
     remote,
   })

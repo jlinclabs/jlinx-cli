@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlinclabs/jlinx.git"
+    "url": "https://github.com/jlinclabs/jlinx-cli.git"
   },
   "keywords": [
     "hypercore",
@@ -24,13 +24,13 @@
   "author": "Jared Grippe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jlinclabs/jlinx/issues"
+    "url": "https://github.com/jlinclabs/jlinx-cli/issues"
   },
-  "homepage": "https://github.com/jlinclabs/jlinx#readme",
+  "homepage": "https://github.com/jlinclabs/jlinx-cli#readme",
   "dependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.2.0",
     "debug": "^4.3.4",
-    "jlinx-app": "github:jlinclabs/jlinx-app"
+    "jlinx-client": "github:jlinclabs/jlinx-client"
   }
 }
